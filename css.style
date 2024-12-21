@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-image: url(krisztian-tabori-ZQf4jzkpz1k-unsplash.jpg);
+    background-size: cover;        /* Ensures it covers the entire page */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center;  /* Centers the image */
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.1); /* Adjust the color and opacity */
+        z-index: -1; /* Puts the overlay behind the text */
+      }
+
+  h2 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    color: white;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: center;
+  }
+
+
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+  }
+
